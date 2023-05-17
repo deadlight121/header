@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #0B4654;
+    font-family: 'Athiti'; /* TODO: import from google */
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 40px 32px;
+}
+
+ul {
+    display: flex;
+    gap: 42px;
+}
+
+li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo_and_brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo {
+    width: 63px;
+}
+img {
+    width: 100%;
+}
+
+.brandname {
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 45px;
+color: inherit;
+}
